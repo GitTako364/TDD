@@ -7,7 +7,7 @@ Students MUST EDIT this module, to add more tests to run
 against the 'echo.py' program.
 """
 
-__author__ = "???"
+__author__ = "Isaiah Gay with help from Caldane"
 
 import sys
 import importlib

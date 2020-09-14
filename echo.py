@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """An enhanced version of the 'echo' cmd line utility."""
 
-__author__ = "sondos with help from gabby and Mike boring"
+__author__ = "Isaiah Gay with help from Caldane"
 
 
 import sys
