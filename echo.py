@@ -24,17 +24,14 @@ def create_parser():
 
     parser.add_argument(
         '-t', '--title', help='convert text to titlecase', action='store_true')
-    # The nargs option instructs the parser to expect 1 or more
-    # filenames. It will also expand wildcards just like the shell.
-    # e.g. 'baby*.html' will work.
+
     return parser
 
 
 def main(args):
-    # Create a command line parser object with parsing rules
+    
     parser = create_parser()
-    # Run the parser to collect command line arguments into a
-    # NAMESPACE called 'ns'
+   
     ns = parser.parse_args(args)
     new_string = ""
 
